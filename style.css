@@ -1,0 +1,140 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	font-family: "Avenir Next";
+}
+
+li {
+	list-style: none;
+}
+
+.header {
+	background-color: #26d0c9;
+	color: #fff;
+	height: 90px;
+}
+
+.header-logo {
+	float: left;
+	font-size: 36px;
+	font-family: "ROG Fonts";
+	padding: 20px 40px;
+}
+
+.header-list li {
+	float: right;
+	padding: 33px 20px;
+}
+
+.header-list li:nth-child(1){
+	margin-right: 45px;
+}
+
+.main {
+	padding: 100px 80px;
+}
+
+.copy-container h1 {
+	font-size: 100px;
+	font-family: "Bauhaus 93";
+}
+
+.copy-container h2 {
+	font-size: 60px;
+	font-family: "Bauhaus 93";
+}
+
+.copy-container h2{
+	background-color: #26d0c8;
+	width: 550px;
+	padding: 20px;
+	border-radius: 30px;
+}
+
+.copy-container span {
+	color: #26d0c6;
+}
+
+.contents {
+	height: 500px;
+	margin-top: 100px;
+}
+
+.section-title {
+	border-bottom: 2px solid #dee7ec;
+	font-size: 30px;
+	font-family: "Elephant";
+	padding-bottom: 15px;
+	margin-bottom: 50px;
+}
+
+.contents-item {
+	float: left;
+	margin-right: 40px ;
+	margin-top: 20px;
+}
+
+.contents-item p {
+	font-size: 24px;
+	
+}
+.contents{
+	height: 500px;
+}
+
+input,textarea{
+	width: 400px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	padding: 20px;
+	font-size: 18px;
+	border: 1px solid #dee7ec;
+}
+.contact-submit{
+	color:#889eab;
+ 	background-color: #dee7ec;
+}
+
+.contact-form{
+	padding-bottom: 50px;
+	margin-top: 300px;
+}
+.footer {
+	background-color: #2f5167;
+	color: #fff;
+	height: 120px;
+	padding: 40px;
+}
+
+.footer-logo {
+	float: left;
+	font-family: "ROG Fonts";
+	font-size: 32px;
+}
+
+.footer-list {
+	float: right;
+}
+
+.footer-list li {
+	padding-bottom: 20px;
+}
